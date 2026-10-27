@@ -29,6 +29,7 @@ const runDuelFP = require('./duel-fp.js');
 const runClaimRewards = require('./claim-BPrewards.js');
 const runGuildAttack = require('./guild-attack.js');
 const runRate = require('./rate.js');
+const runBattlePassChests = require('./battlepass-chests.js');
 
 
 
@@ -69,6 +70,7 @@ const scripts = [
   //{ name: 'Furniture Script2', fn: runFurnitureScript, alwaysRun: true },
   { name: 'Raise stats', fn: runDuelFP, alwaysRun: true },
   { name: 'Rate Guild', fn: runRate, alwaysRun: true },
+  //{ name: 'Battle Pass Chests', fn: runBattlePassChests, alwaysRun: false }, //opens chests
 
 ];
 
