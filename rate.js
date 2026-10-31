@@ -88,7 +88,8 @@ const EXCLUDED_LADY_NAMES = [
 //   ];
 const INCLUDED_LADY_IDS = [
   1905079, //rosa
-  
+  //8242717, //vivienne
+  //7115204 //sherry
 ];
 // -------------------------------
 
