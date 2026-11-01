@@ -54,7 +54,7 @@ const scripts = [
   { name: 'Daily Tasks', fn: runDailyTasks, alwaysRun: true },
 
   { name: 'Boyfriend Kiss', fn: runBoyfriendKiss, alwaysRun: true },
-  { name: 'Guild Attack', fn: runGuildAttack, alwaysRun: true },
+  { name: 'Guild Attack', fn: runGuildAttack, alwaysRun: false },
 
   { name: 'Guild Show', fn: runGuildShow, alwaysRun: true },
 
@@ -68,7 +68,7 @@ const scripts = [
   { name: 'Furniture Script1', fn: runFurnitureScript, alwaysRun: true },
   //{ name: 'Furniture Script2', fn: runFurnitureScript, alwaysRun: true },
   { name: 'Raise stats', fn: runDuelFP, alwaysRun: true },
-  { name: 'Rate Guild', fn: runRate, alwaysRun: false },
+  { name: 'Rate Guild', fn: runRate, alwaysRun: true },
   //{ name: 'Battle Pass Chests', fn: runBattlePassChests, alwaysRun: false }, //opens chests
 
 ];
