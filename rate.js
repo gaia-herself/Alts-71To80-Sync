@@ -90,9 +90,12 @@ const EXCLUDED_LADY_NAMES = [
 //     7654321
 //   ];
 const INCLUDED_LADY_IDS = [
-  1905079, //rosa
+  //1905079, //rosa
   //8242717, //vivienne
   //7115204 //sherry
+  8818942, //alesia19
+  8667636, //Loinnir
+  6204709, //senora gray
 ];
 // -------------------------------
 
