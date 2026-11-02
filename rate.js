@@ -78,7 +78,7 @@ const EXCLUDED_LADY_NAMES = [
   '𝓐𝓷𝓷𝓪',
   'Lana turner',
   'Ку-ку', //allowed in December
-  'Grażka', //allowed in December
+  //'Grażka', //allowed in December
   'Инна' //allowed in December
 ];
 
@@ -91,7 +91,7 @@ const EXCLUDED_LADY_NAMES = [
 //   ];
 const INCLUDED_LADY_IDS = [
   1905079, //rosa
-  8242717, //vivienne
+  //8242717, //vivienne
   //7115204 //sherry
 ];
 // -------------------------------
