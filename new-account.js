@@ -1,7 +1,7 @@
 // new-account.js
 const LADY_NAME = 'Odette';           // Step 37
-const START_AT = Number(process.env.START_AT || 1);       // test from a step
-const STOP_AT = Number(process.env.STOP_AT || 9999);      // test up to a step
+const START_AT = Number(process.env.START_AT || 74);       // test from a step
+const STOP_AT = Number(process.env.STOP_AT || 76);      // test up to a step
 
 const V3 = 'https://v3.g.ladypopular.com';
 const BLOCKS = { eventId: 484, zoneId: 1852 };
