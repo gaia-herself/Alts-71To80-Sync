@@ -70,7 +70,7 @@ const scripts = [
   { name: 'Raise stats', fn: runDuelFP, alwaysRun: true },
   { name: 'Rate Guild', fn: runRate, alwaysRun: true },
   //{ name: 'Battle Pass Chests', fn: runBattlePassChests, alwaysRun: false }, //opens chests
-  { name: 'New Account', fn: runNewAccount, alwaysRun: true },
+  { name: 'New Account', fn: runNewAccount, alwaysRun: false },
 
 ];
 
