@@ -27,7 +27,6 @@ const runGifts = require('./gifts-activation.js');
 const runDuelFP = require('./duel-fp.js');
 const runClaimRewards = require('./claim-BPrewards.js');
 const runGuildAttack = require('./guild-attack.js');
-const runRate = require('./rate.js');
 const runBattlePassChests = require('./battlepass-chests.js');
 const runNewAccount = require('./new-account.js');
 
@@ -58,17 +57,15 @@ const scripts = [
 
   { name: 'Guild Show', fn: runGuildShow, alwaysRun: true },
 
-  { name: 'Pet Training', fn: runPetTraining, alwaysRun: false },
+  //{ name: 'Pet Training', fn: runPetTraining, alwaysRun: false },
 
   //{ name: 'Bridesmaids Tasks', fn: runBridesmaids, alwaysRun: false },
 
   { name: 'Apartment Income', fn: runApartment, alwaysRun: true },
   //{ name: 'Gifts Flashback', fn: runGifts, alwaysRun: false },
   { name: 'Teleport Activation', fn: runTeleport, alwaysRun: true },
-  { name: 'Furniture Script1', fn: runFurnitureScript, alwaysRun: true },
-  //{ name: 'Furniture Script2', fn: runFurnitureScript, alwaysRun: true },
+  { name: 'Furniture Script', fn: runFurnitureScript, alwaysRun: true },
   { name: 'Raise stats', fn: runDuelFP, alwaysRun: true },
-  { name: 'Rate Guild', fn: runRate, alwaysRun: true },
   //{ name: 'Battle Pass Chests', fn: runBattlePassChests, alwaysRun: false }, //opens chests
   { name: 'New Account', fn: runNewAccount, alwaysRun: false },
 
