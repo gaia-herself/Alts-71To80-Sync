@@ -2,6 +2,8 @@
 const LADY_NAME = 'Odette';           // Step 37
 const START_AT = Number(process.env.START_AT || 74);       // test from a step
 const STOP_AT = Number(process.env.STOP_AT || 76);      // test up to a step
+//74,75 - collect achievement rewards if any
+//76 - redistribute stats even if less than 200
 
 const V3 = 'https://v3.g.ladypopular.com';
 const BLOCKS = { eventId: 484, zoneId: 1852 };
